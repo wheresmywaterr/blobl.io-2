@@ -32,7 +32,7 @@ This repository contains everything you need to run your own instance of **blobl
 | Component | Version | Purpose |
 |-----------|---------|---------|
 | [Go](https://golang.org/doc/install) | 1.23+ | Server runtime |
-| [Node.js](https://nodejs.org/) | 14.0+ LTS | Client & supporting services |
+| [Node.js](https://nodejs.org/) | 14.0+ LTS | Supporting services |
 
 ## Project Structure
 
