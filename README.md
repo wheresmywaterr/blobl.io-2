@@ -122,9 +122,9 @@ npm start
 
 | Service | Port | Endpoint | Description |
 |---------|------|----------|-------------|
-| Authentication | 3000 | `/auth` | User authentication and session management |
+| Authentication | 3000 | `/api/*`, `/user`, `/check`, `/logout` | User authentication and session management |
 | Server Discovery | 3002 | `/get-server` | Returns available game servers in current region |
-| Game Servers | 8080-8085 | `/` | Standard game instances |
+| Game Servers | 8080-8085 | `/ffa1`,`/ffa2` ... | Standard game instances |
 | Experimental Server | 9090 | `/ffa99` | Testing environment for new features |
 
 ## Deployment
