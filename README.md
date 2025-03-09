@@ -129,7 +129,9 @@ npm start
 
 ## Deployment
 
-I recommend using Nginx as a reverse proxy for production environments. This will help manage traffic efficiently and improve scalability by directing requests to the appropriate services.
+**Important Deployment Note:** I strongly recommend using Nginx as a reverse proxy for production environments. This will help manage traffic efficiently and improve scalability by directing requests to the appropriate services. A sample Nginx configuration file (`nginx_default`) is included in this repository to help you get started.
+
+The services within this project are designed to operate behind a reverse proxy. If you choose not to use a reverse proxy, you will need to implement request origin validation directly within the game server, load balancer, and other services to prevent unauthorized access and bot activity. This is crucial for maintaining the integrity and security of your game server.
 
 ## Contributing
 
